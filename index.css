@@ -12,6 +12,12 @@
                     background-repeat: no-repeat;
                 }
                 
+                img.tarjeta {
+                    margin: 20px;
+                    width: 500px;
+                    height: 250px;
+                }
+                
                 header {
                     background: #1c92d298;
                     /* fallback for old browsers */
@@ -73,7 +79,7 @@
                     display: block;
                     align-content: center;
                     width: 100%;
-                    height: fit-content;
+                    height: auto;
                 }
                 
                 section {
@@ -129,10 +135,17 @@
                     align-items: center;
                 }
                 
-                img {
+                img.uno {
                     position: absolute;
                     width: 100%;
                     height: 100%;
+                    object-fit: cover;
+                }
+                
+                img.tarjeta {
+                    position: relative;
+                    width: 90%;
+                    height: auto;
                     object-fit: cover;
                 }
                 
